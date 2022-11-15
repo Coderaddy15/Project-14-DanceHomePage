@@ -1,0 +1,210 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+body {
+    background-image: url(./images/pexels-rfstudio-3819572.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100vh;
+    background-color: rgba(250, 235, 215, 0.178);
+}
+
+.hr-line {
+    border-bottom: 1.5px solid black;
+    width: 20%;
+    margin-left: 37%;
+    margin-top: -15px;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.nav {
+    float: right;
+    margin-right: 50px;
+    margin-top: -12px;
+}
+
+.item {
+    margin-left: 70px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.459);
+    font-family: sans-serif;
+    
+}
+
+#home {
+    color: black;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93.5%;
+}
+
+.icon {
+    width: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.icon:hover{
+    transform: scale(2);
+}
+.heading{
+    margin-left: 37%;
+    margin-top: -175px;
+}
+.crea-{
+    font-size: 6em;
+    
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.tivity{
+    margin-left: 100px;
+    font-size: 6em;
+    margin-top: -20px;
+}
+.ingredient{
+    margin-left: 350px;
+    margin-top: -70px;
+    font-size: 1.5em;
+    width: 10%;
+    color:  rgba(0, 0, 0, 0.459);
+}
+.package-btn{
+    padding: 12px 40px;
+    position: absolute;
+    margin-top: 20px;
+    right: 65px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+.package-btn:hover{
+    background-color: honeydew;
+    color: #000;
+    box-shadow: 2px 2px 2px brown;
+}
+.list{
+    margin-left: 35%;
+    margin-top: 70px;
+    list-style-type: none;
+}
+.list-item{
+    font-size: 5em;
+}
+.item{
+    margin-top: 20px;
+}
+#photography{
+    color: #000;
+}
+.vr-line{ position: absolute;
+    border-left: 1px solid #000;
+    height: 34%;
+    left: 500px;
+    top: 373px;
+    
+}
+.bottomright-part{
+    margin-left: 60%;
+    margin-top: -180px;
+}
+.dancer-image{
+    width: 250px;
+}
+.bottomright-part p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.dancer-image{
+    width: 300px;
+}
+.down-arrow{
+    position: absolute;
+    right: 70px;
+    top: 450px;
+}
+.down-arrow img{
+    height: 100px;
+    width: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 700px){
+    body{
+        height: 60vh;
+    }
+    .logo img{
+        width: 50px;
+    }
+    .hr-line{
+        display: none;
+    }
+    .item{
+        margin-left: 5px;
+    }
+    .crea-{
+        font-size: 40px;
+    }
+    .tivity{
+        font-size: 40px;
+    }
+    .heading{
+        margin-left: 45%;
+    }
+    .ingredient{
+        font-size: 15px;
+        margin-top: -20px;
+        margin-left: 200px;
+    }
+    .icon{
+       width: 10px;
+    }
+    .package-btn{
+        padding: 6px 20px;
+    }
+    .item{
+        font-size: 10px;
+    }
+    .vr-line{
+        display: none;
+    }
+    .bottomright-part p{
+        font-size: 10px;
+    }
+    .bottomright-part img{
+        width: 150px;
+
+    }
+    .double-comma{
+        display: none;
+    }
+    .bottomright-part{
+        margin-top: -100px;
+    }
+    .list{
+        margin-left: 45%;
+    }
+    .down-arrow{
+        top: 270px;
+        right: 60px;
+    }
+    .package-btn{
+        font-size: 10px;
+        padding: 7px 20px;
+    }
+}
+    
+    
